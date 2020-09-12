@@ -11,6 +11,10 @@
     {
       "source": "/bb/:match*",
       "destination": "https://bitbucket.com/:match*"
+    },
+    {
+      "source": "/glitch/:match*",
+      "destination": "https://api.glitch.com/git/:match*"
     }
   ],
   "cleanUrls": true
