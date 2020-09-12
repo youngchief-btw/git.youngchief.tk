@@ -1,0 +1,17 @@
+{
+  "rewrites": [
+    {
+      "source": "/gh/:match*",
+      "destination": "https://github.com/:match*"
+    },
+    {
+      "source": "/gl/:match*",
+      "destination": "https://gitlab.com/:match*"
+    },
+    {
+      "source": "/bb/:match*",
+      "destination": "https://bitbucket.com/:match*"
+    }
+  ],
+  "cleanUrls": true
+}
