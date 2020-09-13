@@ -5,6 +5,10 @@
       "destination": "https://github.com/:match*"
     },
     {
+      "source": "/gh/raw/:match*",
+      "destination": "https://raw.githubusercontent.com/:match*"
+    },
+    {
       "source": "/gl/:match*",
       "destination": "https://gitlab.com/:match*"
     },
