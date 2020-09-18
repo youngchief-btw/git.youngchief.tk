@@ -9,6 +9,10 @@
       "destination": "https://raw.githubusercontent.com/:match*"
     },
     {
+      "source": "/gh/gist/:match*",
+      "destination": "https://gist.github.com/:match*"
+    },
+    {
       "source": "/gl/:match*",
       "destination": "https://gitlab.com/:match*"
     },
